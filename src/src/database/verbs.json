@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "",
+        "description": "work",
+        "audioId": 1,
+        "translation": "Trabajar",
+        "categoryId": 1
+    },
+    {
+        "id": 2,
+        "image": "",
+        "description": "Buy",
+        "audioId": 1,
+        "translation": "Comprar",
+        "categoryId": 1
+    },
+    {
+        "id": 3,
+        "image": "",
+        "description": "Sell",
+        "audioId": 2,
+        "translation": "Vender",
+        "categoryId": 2
+    }
+]

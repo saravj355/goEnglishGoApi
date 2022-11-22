@@ -6,6 +6,9 @@ import router from "./routes/index.js";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+app.get("/", (req, res) => {
+	res.statusCode(200).send("INDEX");
+});
 app.use("/api", router);
 
 const init = () => {

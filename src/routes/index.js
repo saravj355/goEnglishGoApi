@@ -1,7 +1,10 @@
 import express from "express";
 const Router = express.Router();
-import verbs from "./verbsRoutes.js";
+import apiV1 from "./api/v1/index.js";
 
-Router.use("/verbs", verbs);
+Router.get("/", (req, res) => {
+	res.statusCode(200).send("API");
+});
+Router.use("/v1", apiV1);
 
 export default Router;

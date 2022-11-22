@@ -3,7 +3,7 @@ const Router = express.Router();
 import apiV1 from "./api/v1/index.js";
 
 Router.get("/", (req, res) => {
-	res.statusCode(200).send("API");
+	res.send("API");
 });
 Router.use("/v1", apiV1);
 
